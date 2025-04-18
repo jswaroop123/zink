@@ -17,7 +17,7 @@ const skills = [
               key={idx}
               src={skill.src}
               alt={skill.alt}
-              className="w-16 h-16 bg-[#1f1f1f] p-2 rounded-xl"
+              className="w-16 h-16 bg-[#1f1f1f] p-0 rounded-xl"
             />
           ))}
         </div>
