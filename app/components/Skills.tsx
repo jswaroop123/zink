@@ -1,8 +1,10 @@
 // zink-portfolio/app/components/Skills.tsx
 const skills = [
-    { src: "/icons/dart.jpg", alt: "Dart" },
-    { src: "/icons/flutter.png", alt: "Flutter" },
-    { src: "/icons/firebase.jpg", alt: "Firebase" },
+    { src: "/icons/java.png", alt: "Java" },
+    { src: "/icons/Nextjs.png", alt: "Next.js" },
+    { src: "/icons/reactjs.jpg", alt: "React.js" },
+    { src: "/icons/node.jpg", alt: "Node.js" },
+    { src: "/icons/tailwindcss.jpg", alt: "Tailwind css" },
   ];
   
   export default function Skills() {

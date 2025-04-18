@@ -1,8 +1,8 @@
 // zink-portfolio/app/components/Services.tsx
 const services = [
-    { title: "Mobile Apps", desc: "Android and iOS", icon: "📱" },
+    { title: "Java Developer", desc: "Proficient in Java", icon: "🌐" },
     { title: "Web Development", desc: "Professional level sites", icon: "💻" },
-    { title: "UI/UX Design", desc: "High-quality design", icon: "🎨" },
+    { title: "Frontend Design", desc: "Responsive and interactive", icon: "🎨" },
     { title: "Backend Development", desc: "Scalable and seamless", icon: "🛠️" },
   ];
   

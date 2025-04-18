@@ -4,7 +4,7 @@ export default function Sidebar() {
       <aside className="w-[280px] bg-[#1f1f1f] text-center p-6 hidden md:block">
         <div className="flex flex-col items-center">
           <img
-            src="/icons/avatar.png"
+            src="/icons/avatar.jpg"
             alt="Avatar"
             className="w-24 h-24 rounded-full border-2 border-yellow-400 mb-4"
           />

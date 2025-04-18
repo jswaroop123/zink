@@ -7,7 +7,7 @@ export default function Footer() {
       <p>© {new Date().getFullYear()} Jyothi Swaroop N. All rights reserved.</p>
       <div className="mt-2 flex justify-center space-x-4">
         <a
-          href="https://github.com/jswaroop2003"  // replace with your GitHub
+          href="https://github.com/jswaroop123"  // replace with your GitHub
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition"
@@ -15,7 +15,7 @@ export default function Footer() {
           <FaGithub size={20} />
         </a>
         <a
-          href="https://linkedin.com/in/jyothiswaroop" // replace with your LinkedIn
+          href="https://www.linkedin.com/in/jyothi-swaroop-n-9446912a9/" // replace with your LinkedIn
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white transition"
