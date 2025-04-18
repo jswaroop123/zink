@@ -3,25 +3,29 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="mt-12 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-      <p>© {new Date().getFullYear()} Jyothi Swaroop N. All rights reserved.</p>
-      <div className="mt-2 flex justify-center space-x-4">
-        <a
-          href="https://github.com/jswaroop123"  // replace with your GitHub
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-white transition"
-        >
-          <FaGithub size={20} />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/jyothi-swaroop-n-9446912a9/" // replace with your LinkedIn
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-white transition"
-        >
-          <FaLinkedin size={20} />
-        </a>
+    <footer className="w-full bg-[#1f1f1f] py-4 text-sm text-gray-400 mt-10">
+      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+        <p className="text-center md:text-left">
+          © {new Date().getFullYear()} Jyothi Swaroop N. All rights reserved.
+        </p>
+        <div className="flex space-x-4 mt-2 md:mt-0">
+          <a
+            href="https://github.com/jswaroop123"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition"
+          >
+            <FaGithub size={20} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jyothi-swaroop-n-9446912a9/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition"
+          >
+            <FaLinkedin size={20} />
+          </a>
+        </div>
       </div>
     </footer>
   );
